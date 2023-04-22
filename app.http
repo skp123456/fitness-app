@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
     "programId":2,
-    "programName":"Power Hour"
+    "programName":"Walk this Weigh"
 }
 
 ###
@@ -12,7 +12,7 @@ PUT http://localhost:3000/edit-fitness/1/
 Content-Type: application/json
 
 {
-    "programName":"Fit&Fun"
+    "programName":"Power Hour"
 }
 
 ###
@@ -27,7 +27,7 @@ Content-Type: application/json
 {
     "exerciseId":2,
     "exerciseName":"Push-ups",
-    "exerciseLengthInMinutes":15
+    "exerciseLengthInMinutes":10
 }
 
 ###
