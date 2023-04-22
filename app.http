@@ -1,0 +1,35 @@
+POST http://localhost:3000/create-fitness/
+Content-Type: application/json
+
+{
+    "programId":2,
+    "programName":"Power Hour"
+}
+
+###
+
+PUT http://localhost:3000/edit-fitness/1/
+Content-Type: application/json
+
+{
+    "programName":"Fit&Fun"
+}
+
+###
+
+DELETE http://localhost:3000/delete-fitness/2/
+
+###
+
+POST http://localhost:3000/create-exercise/
+Content-Type: application/json
+
+{
+    "exerciseId":2,
+    "exerciseName":"Push-ups",
+    "exerciseLengthInMinutes":15
+}
+
+###
+
+DELETE http://localhost:3000/delete-exercise/2/
